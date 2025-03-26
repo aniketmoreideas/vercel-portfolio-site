@@ -39,7 +39,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold">
-          Aniket<span className="text-primary">Sharma</span>
+          Aniket <span className="text-primary">Sharma</span>
         </Link>
 
         {/* Desktop Navigation */}

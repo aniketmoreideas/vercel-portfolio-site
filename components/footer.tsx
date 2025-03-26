@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center justify-center">
           <Link href="/" className="text-xl font-bold mb-6">
-            Aniket<span className="text-primary">Sharma</span>
+            Aniket <span className="text-primary">Sharma</span>
           </Link>
 
           <div className="flex items-center justify-center gap-6 mb-8">
