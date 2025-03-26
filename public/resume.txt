@@ -1,0 +1,69 @@
+Aniket Sharma 
+Web Developer - IT 
+   Dubai, UAE 
+  +971 528384100 
+  ank8525@gmail.com 
+  https://www.linkedin.com/in/aniketsharma4u 
+Professional Summary 
+Results-driven Web Developer with 7 years of experience in full-stack development, delivering 
+scalable, secure, and high-performance web applications. Proficient in PHP, Laravel, React, 
+Inertia.js, Tailwind CSS, MySQL and API integrations. Experienced in managing over 500K+ 
+customer records via multiple CRM APIs, and handling daily payment transactions of AED 40K–50K 
+through various payment gateways. 
+Skilled in CRM integrations (Salesforce, Freshdesk, Pardot, Infusionsoft, LeadSquared) and 
+payment systems (PayPal, Stripe, Razorpay, Tabby, Tamara, Amazon Payfort, PayTabs). 
+Developed and launched the BYJU'S Middle East Shopify store and have hands-on experience 
+with Shopify Rest and GraphQL API and App development. Adept at independently managing 
+the entire development lifecycle and collaborating with cross-functional teams in dynamic 
+environments. 
+Experience 
+JULY 2022 – PRESENT 
+Web Developer / More Ideas General Trading LLC – BYJU'S, Dubai, UAE 
+• Developed robust and scalable web applications using Laravel, Laravel Inertia, React, and 
+Tailwind CSS. 
+• Managed over 500,000+ customer records using multiple CRM API integrations. 
+• Integrated and maintained payment gateways processing AED 40K–50K daily. 
+• Deployed applications via AWS, WHM, cPanel, GitHub Actions, and CI/CD pipelines. 
+• Designed reusable backend architecture to improve scalability and maintainability. 
+• Created the Shopify store for BYJU'S Middle East, with custom integration using Shopify 
+API. 
+• Independently handled full project lifecycle: architecture, development, deployment, and 
+maintenance. 
+APRIL 2018 – JUNE 2022 
+PHP Web Developer / HMMBiz Web Solutions, Ahmedabad, India 
+• Led a development team delivering full-stack web solutions using PHP, Laravel, CodeIgniter, 
+and JavaScript. 
+• Built database-driven web applications and developed dynamic frontend interfaces with 
+Bootstrap and jQuery. 
+• Designed and implemented scalable APIs and integrated multiple third-party CRMs and 
+payment gateways. 
+• Conducted performance reviews, task allocation, and mentoring of junior developers. 
+• Collaborated with UI/UX designers and QA teams to deliver responsive, bug-free 
+experiences. 
+• Optimized server-side logic, resolved performance bottlenecks, and implemented reusable 
+modules. 
+APRIL 2018 – JUNE 2022 
+PHP Developer Intern / HMMBiz Web Solutions, Ahmedabad, India 
+• Create and maintain the visual aspects of a website, including layout, design, and interactivity. 
+• Ensure that websites and applications work seamlessly across various devices and screen sizes. 
+• Design and develop custom WordPress themes based on client requirements. 
+• Customize existing themes to match specific design needs and branding guidelines. 
+Skills 
+Frontend: HTML5, CSS3, JavaScript, React, WordPress, Tailwind CSS, Bootstrap, jQuery, AJAX 
+Backend: PHP, Laravel, Laravel Inertia, CodeIgniter, MySQL, MongoDB, REST and GraphQL APIs 
+DevOps & Tools: Git, GitHub Actions, CI/CD, WHM, cPanel, AWS (EC2, S3) 
+CRM Platforms: Salesforce, Freshdesk, Pardot, Infusionsoft, LeadSquared 
+Payment Gateways: PayPal, Stripe, Razorpay, Tabby, Tamara, Amazon Payfort, PayTabs. 
+E-commerce Platforms: Shopify, WooCommerce, Shopify API, Shopify App Development 
+Other Areas: SEO, System Design, Project Documentation, Client Collaboration, Data Management 
+Education 
+2014 - 2017 
+Bachelor of Computer Applications / IGNOU, Ahmedabad, India 
+Personal Information 
+Full Name: Aniket Sharma 
+Date Of Birth: 30 December 1996 
+Nationality: Indian 
+Visa Status: Employment Visa 
+Address: Oud Metha, Dubai, UAE 
+Languages: English, Hindi
+
