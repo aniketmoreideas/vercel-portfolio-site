@@ -81,7 +81,7 @@ export function Contact() {
                   </div>
                   <div className="mt-8 pt-6 border-t border-border">
                     <div className="flex items-center gap-2">
-                      <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
+                      <span className="h-3 w-3 rounded-full bg-green-500 dark:bg-green-400" />
                       <p className="text-sm text-muted-foreground">
                         Available for full-time positions and freelance projects
                       </p>

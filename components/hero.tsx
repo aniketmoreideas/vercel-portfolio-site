@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowDown, Github, Linkedin, Mail, Phone } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function Hero() {
@@ -34,12 +34,12 @@ export function Hero() {
 
           <div className="flex items-center justify-center gap-6 mt-12">
             <a
-              href="https://github.com/"
+              href="tel:+971528384100"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
-              <Github size={24} />
+              <Phone size={24} />
               <span className="sr-only">GitHub</span>
             </a>
             <a

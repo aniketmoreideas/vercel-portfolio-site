@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, Phone } from "lucide-react"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -14,13 +14,13 @@ export function Footer() {
 
           <div className="flex items-center justify-center gap-6 mb-8">
             <a
-              href="https://github.com/"
+              href="tel:+971528384100"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="GitHub"
             >
-              <Github size={20} />
+              <Phone size={20} />
             </a>
             <a
               href="https://www.linkedin.com/in/aniketsharma4u"

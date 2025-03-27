@@ -8,25 +8,25 @@ export function Experience() {
   const experiences = [
     {
       title: "Web Developer",
-      company: "More Ideas General Trading LLC – BYJU'S",
+      company: "More Ideas General Trading LLC - BYJU'S",
       location: "Dubai, UAE",
-      period: "July 2022 – Present",
+      period: "July 2022 - Present",
       description: [
         "Developed robust and scalable web applications using Laravel, Laravel Inertia, React, and Tailwind CSS.",
         "Managed over 500,000+ customer records using multiple CRM API integrations.",
-        "Integrated and maintained payment gateways processing AED 40K–50K daily.",
+        "Integrated and maintained payment gateways processing AED 40K-50K daily.",
         "Deployed applications via AWS, WHM, cPanel, GitHub Actions, and CI/CD pipelines.",
         "Designed reusable backend architecture to improve scalability and maintainability.",
         "Created the Shopify store for BYJU'S Middle East, with custom integration using Shopify API.",
         "Independently handled full project lifecycle: architecture, development, deployment, and maintenance.",
       ],
-      skills: ["Laravel", "React", "Tailwind CSS", "AWS", "Shopify API", "CI/CD"],
+      skills: ["Laravel", "React", "Tailwind CSS", "AWS", "Shopify API", "CI/CD", "Shopify", "Inertia", "GitHub Actions"],
     },
     {
       title: "PHP Web Developer",
       company: "HMMBiz Web Solutions",
       location: "Ahmedabad, India",
-      period: "April 2018 – June 2022",
+      period: "April 2018 - June 2022",
       description: [
         "Led a development team delivering full-stack web solutions using PHP, Laravel, CodeIgniter, and JavaScript.",
         "Built database-driven web applications and developed dynamic frontend interfaces with Bootstrap and jQuery.",
@@ -41,7 +41,7 @@ export function Experience() {
       title: "PHP Developer Intern",
       company: "HMMBiz Web Solutions",
       location: "Ahmedabad, India",
-      period: "January 2018 – April 2018",
+      period: "October 2017 - March 2018",
       description: [
         "Created and maintained the visual aspects of websites, including layout, design, and interactivity.",
         "Ensured that websites and applications work seamlessly across various devices and screen sizes.",
