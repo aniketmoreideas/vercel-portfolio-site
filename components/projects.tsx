@@ -1,15 +1,22 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { motion } from "framer-motion"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ExternalLink } from "lucide-react"
+import { useState } from "react";
+import { motion } from "framer-motion";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ExternalLink } from "lucide-react";
 
 export function Projects() {
-  const [activeTab, setActiveTab] = useState("all")
+  const [activeTab, setActiveTab] = useState("all");
 
   const projects = [
     {
@@ -29,9 +36,9 @@ export function Projects() {
         "Courier API",
         "RBAC",
         "Git",
-        "GitHub Actions"
+        "GitHub Actions",
       ],
-      image: "/projects/laravel/more-ideas-coms-min.jpg",
+      image: "/projects/codeigniter/coms-min.jpg",
       link: null, // Demo available upon request
       demoText: "Demo available upon request",
     },
@@ -52,9 +59,9 @@ export function Projects() {
         "SMS API",
         "RBAC",
         "Git",
-        "GitHub Actions"
+        "GitHub Actions",
       ],
-      image: "/projects/codeigniter/more-ideas-quiz-dashboard-min.jpg",
+      image: "/projects/codeigniter/quiz-dashboard-min.jpg",
       link: null, // Demo available upon request
       demoText: "Demo available upon request",
     },
@@ -63,8 +70,17 @@ export function Projects() {
       category: "laravel",
       description:
         "A refund management system for the Customer Happiness team. This application enables managers to assign refund requests, track status updates, ensure approval workflows, and maintain records of customer interactions, including uploaded supporting files and recordings.",
-      techStack: ["Laravel", "jQuery", "Bootstrap", "Tailwind CSS", "MySQL", "Azure SSO", "GitHub Actions", "RBAC"],
-      image: "/projects/laravel/more-ideas-refund-flow-min.jpg",
+      techStack: [
+        "Laravel",
+        "jQuery",
+        "Bootstrap",
+        "Tailwind CSS",
+        "MySQL",
+        "Azure SSO",
+        "GitHub Actions",
+        "RBAC",
+      ],
+      image: "/projects/laravel/refund-flow-min.jpg",
       link: null, // Demo available upon request
       demoText: "Demo available upon request",
     },
@@ -73,8 +89,16 @@ export function Projects() {
       category: "laravel",
       description:
         "A training and assessment platform for onboarding new sales professionals. The system allows trainers to create quizzes focused on product knowledge, customer FAQs, and sales scenarios. The results are automatically generated and shared with managers for evaluation.",
-      techStack: ["Laravel", "React", "Tailwind CSS", "MySQL", "Azure SSO", "GitHub Actions", "RBAC"],
-      image: "/projects/laravel/more-ideas-talent-check-min.jpg",
+      techStack: [
+        "Laravel",
+        "React",
+        "Tailwind CSS",
+        "MySQL",
+        "Azure SSO",
+        "GitHub Actions",
+        "RBAC",
+      ],
+      image: "/projects/laravel/skillt-tracket-min.jpg",
       link: null, // Demo available upon request
       demoText: "Demo available upon request",
     },
@@ -83,7 +107,15 @@ export function Projects() {
       category: "laravel",
       description:
         "Developed APIs for mobile applications and employee well-being platform focused on mental health services for businesses.",
-      techStack: ["Laravel", "PHP", "MySQL", "Bootstrap", "jQuery", "GitHub", "WHM"],
+      techStack: [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "jQuery",
+        "GitHub",
+        "WHM",
+      ],
       image: "/projects/laravel/mind-alcove-min.jpg",
       link: "https://mindalcove.com/",
     },
@@ -91,7 +123,15 @@ export function Projects() {
       title: "Wetinuneed",
       category: "codeigniter",
       description: "E-commerce website with custom features.",
-      techStack: ["CodeIgniter", "PHP", "MySQL", "Bootstrap", "jQuery", "GitHub", "WHM"],
+      techStack: [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "jQuery",
+        "GitHub",
+        "WHM",
+      ],
       image: "/projects/codeigniter/wetinuneed-min.jpg",
       link: "https://wetinuneed.com/",
     },
@@ -99,24 +139,49 @@ export function Projects() {
       title: "The Triangles",
       category: "codeigniter",
       description: "Custom web application with payment integration.",
-      techStack: ["CodeIgniter", "PHP", "MySQL", "Bootstrap", "jQuery", "GitHub", "WHM", "Razorpay"],
+      techStack: [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "jQuery",
+        "GitHub",
+        "WHM",
+        "Razorpay",
+      ],
       image: "/projects/codeigniter/the-triangles-min.jpg",
       link: "https://the-triangles.com/",
     },
     {
       title: "More Ideas General Trading LLC",
       category: "wordpress",
-      description: "Corporate website with LeadSquared integration and WooCommerce.",
-      techStack: ["WordPress", "PHP", "CSS", "jQuery", "LeadSquared", "WooCommerce"],
-      image: "/projects/wordpress/more-ideas-general-trading-llc-min.jpg",
+      description:
+        "Corporate website with LeadSquared integration and WooCommerce.",
+      techStack: [
+        "WordPress",
+        "PHP",
+        "CSS",
+        "jQuery",
+        "LeadSquared",
+        "WooCommerce",
+      ],
+      image: "/projects/wordpress/moreideas-min.jpg",
       link: "https://moreideas.ae/",
     },
     {
       title: "Nividous Software Solutions",
       category: "wordpress",
       description: "Corporate website with multiple CRM integrations.",
-      techStack: ["WordPress", "PHP", "CSS", "jQuery", "Pardot", "Salesforce", "Infusionsoft"],
-      image: "/projects/wordpress/nividous-software-solutions-min.jpg",
+      techStack: [
+        "WordPress",
+        "PHP",
+        "CSS",
+        "jQuery",
+        "Pardot",
+        "Salesforce",
+        "Infusionsoft",
+      ],
+      image: "/projects/wordpress/nividous-min.jpg",
       link: "https://nividous.com/",
     },
     {
@@ -124,7 +189,7 @@ export function Projects() {
       category: "wordpress",
       description: "Corporate website for pharmaceutical company.",
       techStack: ["WordPress", "PHP", "CSS", "JavaScript"],
-      image: "/projects/wordpress/lupin-limited-min.jpg",
+      image: "/projects/wordpress/lupin-min.jpg",
       link: "https://www.lupin.com/",
     },
     {
@@ -140,15 +205,29 @@ export function Projects() {
       category: "shopify",
       description:
         "E-commerce store with multiple payment gateway integrations including Tabby, Tamara, and Amazon Payfort.",
-      techStack: ["Shopify", "Tabby", "Tamara", "Amazon Payfort", "Shopify APIs"],
-      image: "/projects/shopify/more-ideas-shopify-store-min.jpg",
+      techStack: [
+        "Shopify",
+        "Tabby",
+        "Tamara",
+        "Amazon Payfort",
+        "Shopify APIs",
+      ],
+      image: "/projects/shopify/shop-moreideas-min.jpg",
       link: "https://shop.moreideas.ae/",
     },
     {
       title: "TSS Smart Shopify App",
       category: "shopify",
       description: "Custom Shopify app available on the Shopify App Store.",
-      techStack: ["Laravel", "React", "MySQL", "PHP", "Shopify API", "WHM", "cPanel"],
+      techStack: [
+        "Laravel",
+        "React",
+        "MySQL",
+        "PHP",
+        "Shopify API",
+        "WHM",
+        "cPanel",
+      ],
       image: "/projects/shopify/tss-smart-min.jpg",
       link: "https://apps.shopify.com/tss-smart-dev",
     },
@@ -157,12 +236,15 @@ export function Projects() {
       category: "shopify",
       description: "E-commerce store with custom theme.",
       techStack: ["Shopify", "Theme Customization"],
-      image: "/projects/shopify/ebazar-min.jpg",
+      image: "/projects/shopify/e-bazar-min.jpg",
       link: "https://www.ebazar.ai/",
     },
-  ]
+  ];
 
-  const filteredProjects = activeTab === "all" ? projects : projects.filter((project) => project.category === activeTab)
+  const filteredProjects =
+    activeTab === "all"
+      ? projects
+      : projects.filter((project) => project.category === activeTab);
 
   return (
     <section id="projects" className="py-20 bg-muted/30">
@@ -176,7 +258,12 @@ export function Projects() {
         >
           <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
 
-          <Tabs defaultValue="all" value={activeTab} onValueChange={setActiveTab} className="mb-8">
+          <Tabs
+            defaultValue="all"
+            value={activeTab}
+            onValueChange={setActiveTab}
+            className="mb-8"
+          >
             <div className="flex justify-center">
               <TabsList>
                 <TabsTrigger value="all">All</TabsTrigger>
@@ -206,7 +293,9 @@ export function Projects() {
                       </div>
                       <CardHeader>
                         <CardTitle>{project.title}</CardTitle>
-                        <CardDescription className="line-clamp-2">{project.description}</CardDescription>
+                        <CardDescription className="line-clamp-2">
+                          {project.description}
+                        </CardDescription>
                       </CardHeader>
                       <CardContent className="flex-grow">
                         <div className="flex flex-wrap gap-2">
@@ -216,7 +305,9 @@ export function Projects() {
                             </Badge>
                           ))}
                           {project.techStack.length > 8 && (
-                            <Badge variant="outline">+{project.techStack.length - 8} more</Badge>
+                            <Badge variant="outline">
+                              +{project.techStack.length - 8} more
+                            </Badge>
                           )}
                         </div>
                       </CardContent>
@@ -248,6 +339,5 @@ export function Projects() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
-
