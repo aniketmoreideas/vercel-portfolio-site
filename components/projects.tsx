@@ -28,6 +28,8 @@ export function Projects() {
         "GitHub Actions",
         "Courier API",
         "RBAC",
+        "Git",
+        "GitHub Actions"
       ],
       image: "/placeholder.svg?height=200&width=400",
       link: null, // Demo available upon request
@@ -49,6 +51,8 @@ export function Projects() {
         "WhatsApp API",
         "SMS API",
         "RBAC",
+        "Git",
+        "GitHub Actions"
       ],
       image: "/placeholder.svg?height=200&width=400",
       link: null, // Demo available upon request
@@ -80,7 +84,7 @@ export function Projects() {
       description:
         "Developed APIs for mobile applications and employee well-being platform focused on mental health services for businesses.",
       techStack: ["Laravel", "PHP", "MySQL", "Bootstrap", "jQuery", "GitHub", "WHM"],
-      image: "/images/projects/mind-alcove.png",
+      image: "/projects/laravel/mind-alcove-min.jpg",
       link: "https://mindalcove.com/",
     },
     {
@@ -206,13 +210,13 @@ export function Projects() {
                       </CardHeader>
                       <CardContent className="flex-grow">
                         <div className="flex flex-wrap gap-2">
-                          {project.techStack.slice(0, 4).map((tech, i) => (
+                          {project.techStack.slice(0, 8).map((tech, i) => (
                             <Badge key={i} variant="secondary">
                               {tech}
                             </Badge>
                           ))}
-                          {project.techStack.length > 4 && (
-                            <Badge variant="outline">+{project.techStack.length - 4} more</Badge>
+                          {project.techStack.length > 8 && (
+                            <Badge variant="outline">+{project.techStack.length - 8} more</Badge>
                           )}
                         </div>
                       </CardContent>
