@@ -14,6 +14,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ExternalLink } from "lucide-react";
+import Image from "next/image";
 
 export function Projects() {
   const [activeTab, setActiveTab] = useState("all");
@@ -113,8 +114,7 @@ export function Projects() {
         "MySQL",
         "Bootstrap",
         "jQuery",
-        "GitHub",
-        "WHM",
+        "Git"
       ],
       image: "/projects/laravel/mind-alcove-min.jpg",
       link: "https://mindalcove.com/",
@@ -285,9 +285,10 @@ export function Projects() {
                   >
                     <Card className="h-full flex flex-col">
                       <div className="aspect-video relative overflow-hidden">
-                        <img
+                        <Image
                           src={project.image || "/placeholder.svg"}
                           alt={project.title}
+                          fill
                           className="w-full h-full object-cover transition-transform hover:scale-105"
                         />
                       </div>
