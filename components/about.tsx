@@ -41,7 +41,7 @@ export function About() {
               </p>
 
               <Button asChild>
-                <a href="/resume.txt" download="Aniket_Sharma_CV.txt">
+                <a href="/CV/Aniket-Web-Developer-CV-v3.pdf" download="Aniket-Web-Developer-CV-v3.pdf">
                   <Download className="mr-2 h-4 w-4" /> Download CV
                 </a>
               </Button>
