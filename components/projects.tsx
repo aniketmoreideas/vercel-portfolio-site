@@ -31,7 +31,7 @@ export function Projects() {
         "Git",
         "GitHub Actions"
       ],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/laravel/more-ideas-coms-min.jpg",
       link: null, // Demo available upon request
       demoText: "Demo available upon request",
     },
@@ -54,7 +54,7 @@ export function Projects() {
         "Git",
         "GitHub Actions"
       ],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/codeigniter/more-ideas-quiz-dashboard-min.jpg",
       link: null, // Demo available upon request
       demoText: "Demo available upon request",
     },
@@ -64,7 +64,7 @@ export function Projects() {
       description:
         "A refund management system for the Customer Happiness team. This application enables managers to assign refund requests, track status updates, ensure approval workflows, and maintain records of customer interactions, including uploaded supporting files and recordings.",
       techStack: ["Laravel", "jQuery", "Bootstrap", "Tailwind CSS", "MySQL", "Azure SSO", "GitHub Actions", "RBAC"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/laravel/more-ideas-refund-flow-min.jpg",
       link: null, // Demo available upon request
       demoText: "Demo available upon request",
     },
@@ -74,7 +74,7 @@ export function Projects() {
       description:
         "A training and assessment platform for onboarding new sales professionals. The system allows trainers to create quizzes focused on product knowledge, customer FAQs, and sales scenarios. The results are automatically generated and shared with managers for evaluation.",
       techStack: ["Laravel", "React", "Tailwind CSS", "MySQL", "Azure SSO", "GitHub Actions", "RBAC"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/laravel/more-ideas-talent-check-min.jpg",
       link: null, // Demo available upon request
       demoText: "Demo available upon request",
     },
@@ -92,7 +92,7 @@ export function Projects() {
       category: "codeigniter",
       description: "E-commerce website with custom features.",
       techStack: ["CodeIgniter", "PHP", "MySQL", "Bootstrap", "jQuery", "GitHub", "WHM"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/codeigniter/wetinuneed-min.jpg",
       link: "https://wetinuneed.com/",
     },
     {
@@ -100,7 +100,7 @@ export function Projects() {
       category: "codeigniter",
       description: "Custom web application with payment integration.",
       techStack: ["CodeIgniter", "PHP", "MySQL", "Bootstrap", "jQuery", "GitHub", "WHM", "Razorpay"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/codeigniter/the-triangles-min.jpg",
       link: "https://the-triangles.com/",
     },
     {
@@ -108,7 +108,7 @@ export function Projects() {
       category: "wordpress",
       description: "Corporate website with LeadSquared integration and WooCommerce.",
       techStack: ["WordPress", "PHP", "CSS", "jQuery", "LeadSquared", "WooCommerce"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/wordpress/more-ideas-general-trading-llc-min.jpg",
       link: "https://moreideas.ae/",
     },
     {
@@ -116,7 +116,7 @@ export function Projects() {
       category: "wordpress",
       description: "Corporate website with multiple CRM integrations.",
       techStack: ["WordPress", "PHP", "CSS", "jQuery", "Pardot", "Salesforce", "Infusionsoft"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/wordpress/nividous-software-solutions-min.jpg",
       link: "https://nividous.com/",
     },
     {
@@ -124,7 +124,7 @@ export function Projects() {
       category: "wordpress",
       description: "Corporate website for pharmaceutical company.",
       techStack: ["WordPress", "PHP", "CSS", "JavaScript"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/wordpress/lupin-limited-min.jpg",
       link: "https://www.lupin.com/",
     },
     {
@@ -132,7 +132,7 @@ export function Projects() {
       category: "wordpress",
       description: "Non-profit organization website.",
       techStack: ["WordPress", "PHP", "CSS", "JavaScript"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/wordpress/catch-foundation-min.jpg",
       link: "https://catchfoundation.in/",
     },
     {
@@ -141,7 +141,7 @@ export function Projects() {
       description:
         "E-commerce store with multiple payment gateway integrations including Tabby, Tamara, and Amazon Payfort.",
       techStack: ["Shopify", "Tabby", "Tamara", "Amazon Payfort", "Shopify APIs"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/shopify/more-ideas-shopify-store-min.jpg",
       link: "https://shop.moreideas.ae/",
     },
     {
@@ -149,7 +149,7 @@ export function Projects() {
       category: "shopify",
       description: "Custom Shopify app available on the Shopify App Store.",
       techStack: ["Laravel", "React", "MySQL", "PHP", "Shopify API", "WHM", "cPanel"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/shopify/tss-smart-min.jpg",
       link: "https://apps.shopify.com/tss-smart-dev",
     },
     {
@@ -157,7 +157,7 @@ export function Projects() {
       category: "shopify",
       description: "E-commerce store with custom theme.",
       techStack: ["Shopify", "Theme Customization"],
-      image: "/placeholder.svg?height=200&width=400",
+      image: "/projects/shopify/ebazar-min.jpg",
       link: "https://www.ebazar.ai/",
     },
   ]
