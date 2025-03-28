@@ -167,7 +167,7 @@ export function Projects() {
       description: "Corporate website with multiple CRM integrations.",
       techStack: [
         "WordPress",
-        "PHP",
+        "CodeIgniter",
         "CSS",
         "jQuery",
         "Pardot",
@@ -181,7 +181,7 @@ export function Projects() {
       title: "Lupin Limited",
       category: "wordpress",
       description: "Corporate website for pharmaceutical company.",
-      techStack: ["WordPress", "PHP", "CSS", "JavaScript"],
+      techStack: ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
       image: "/projects/wordpress/lupin-min.jpg",
       link: "https://www.lupin.com/",
     },
@@ -189,7 +189,7 @@ export function Projects() {
       title: "Catch Foundation",
       category: "wordpress",
       description: "Non-profit organization website.",
-      techStack: ["WordPress", "PHP", "CSS", "JavaScript"],
+      techStack: ["WordPress", "CodeIgniter", "PHP", "CSS", "JavaScript"],
       image: "/projects/wordpress/catch-foundation-min.jpg",
       link: "https://catchfoundation.in/",
     },
@@ -282,7 +282,7 @@ export function Projects() {
                           src={project.image || "/placeholder.svg"}
                           alt={project.title}
                           fill
-                          className="w-full h-full object-cover transition-transform hover:scale-105"
+                          className="w-full h-full rounded-t-lg"
                         />
                       </div>
                       <CardHeader>

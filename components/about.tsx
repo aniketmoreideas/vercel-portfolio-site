@@ -52,7 +52,8 @@ export function About() {
               <Button asChild>
                 <a
                   href="/CV/Aniket-Web-Developer-CV-v3.pdf"
-                  download="Aniket-Web-Developer-CV-v3.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Download className="mr-2 h-4 w-4" /> Download CV
                 </a>
