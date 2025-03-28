@@ -178,12 +178,12 @@ export function Projects() {
       link: "https://nividous.com/",
     },
     {
-      title: "Lupin Limited",
+      title: "Clients on Demand",
       category: "wordpress",
-      description: "Corporate website for pharmaceutical company.",
+      description: "Corporate website for sales and marketing education and training company.",
       techStack: ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
-      image: "/projects/wordpress/lupin-min.jpg",
-      link: "https://www.lupin.com/",
+      image: "/projects/wordpress/clientsondemand-min.jpg",
+      link: "https://www.clientsondemand.com/",
     },
     {
       title: "Catch Foundation",
