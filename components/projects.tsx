@@ -108,14 +108,7 @@ export function Projects() {
       category: "laravel",
       description:
         "Developed APIs for mobile applications and employee well-being platform focused on mental health services for businesses.",
-      techStack: [
-        "Laravel",
-        "PHP",
-        "MySQL",
-        "Bootstrap",
-        "jQuery",
-        "Git"
-      ],
+      techStack: ["Laravel", "PHP", "MySQL", "Bootstrap", "jQuery", "Git"],
       image: "/projects/laravel/mind-alcove-min.jpg",
       link: "https://mindalcove.com/",
     },
