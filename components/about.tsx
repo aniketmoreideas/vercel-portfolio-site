@@ -51,7 +51,7 @@ export function About() {
 
               <Button asChild>
                 <a
-                  href="/CV/Aniket-Web-Developer-CV-v3.pdf"
+                  href="/CV/Aniket-Web-Developer-CV-v6.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
