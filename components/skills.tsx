@@ -1,36 +1,91 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Badge } from "@/components/ui/badge"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { motion } from "framer-motion";
+import { Badge } from "@/components/ui/badge";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export function Skills() {
   const skillCategories = [
     {
       title: "Frontend",
-      skills: ["HTML5", "CSS3", "JavaScript", "React", "Next.js", "WordPress", "Tailwind CSS", "Bootstrap", "jQuery", "AJAX"],
+      skills: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "WordPress",
+        "Tailwind CSS",
+        "Bootstrap",
+        "jQuery",
+        "AJAX",
+      ],
     },
     {
       title: "Backend",
-      skills: ["PHP", "Laravel", "Laravel Inertia", "CodeIgniter", "MySQL", "MongoDB", "REST APIs", "GraphQL APIs"],
+      skills: [
+        "Laravel",
+        "Laravel Inertia",
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+		"Node.js",
+        "MongoDB",
+        "REST APIs",
+        "GraphQL APIs",
+      ],
     },
     {
       title: "DevOps & Tools",
-      skills: ["Git", "GitHub Actions", "CI/CD", "WHM", "cPanel", "AWS (EC2, S3)"],
+      skills: [
+        "Git",
+        "GitHub Actions",
+        "GitLab",
+        "CI/CD",
+        "WHM",
+        "cPanel",
+        "AWS (EC2, S3)",
+      ],
     },
     {
       title: "CRM Platforms",
-      skills: ["Salesforce", "Freshdesk", "Pardot", "Infusionsoft", "LeadSquared"],
+      skills: [
+        "Salesforce",
+        "Freshdesk",
+        "Pardot",
+        "Infusionsoft",
+        "LeadSquared",
+      ],
     },
     {
       title: "Payment Gateways",
-      skills: ["PayPal", "Stripe", "Razorpay", "Tabby", "Tamara", "Amazon Payfort", "PayTabs"],
+      skills: [
+        "PayPal",
+        "Stripe",
+        "Razorpay",
+        "Tabby",
+        "Tamara",
+        "Amazon Payfort",
+        "PayTabs",
+      ],
     },
     {
       title: "E-commerce Platforms",
-      skills: ["Shopify", "WooCommerce", "Shopify API", "Shopify App Development"],
+      skills: [
+        "Shopify",
+        "WooCommerce",
+        "Shopify API",
+        "Shopify App Development",
+      ],
     },
-  ]
+  ];
 
   return (
     <section id="skills" className="py-20">
@@ -56,7 +111,9 @@ export function Skills() {
                 <Card>
                   <CardHeader>
                     <CardTitle>{category.title}</CardTitle>
-                    <CardDescription>{category.skills.length} skills</CardDescription>
+                    <CardDescription>
+                      {category.skills.length} skills
+                    </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-wrap gap-2">
@@ -74,6 +131,5 @@ export function Skills() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
-
