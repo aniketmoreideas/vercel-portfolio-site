@@ -27,17 +27,13 @@ export function Projects() {
         "A comprehensive logistics management system that enables the operations team to manage orders, track delivery schedules, update customer profiles, and generate AWB numbers directly through integrations with courier APIs such as Buraq, SkyEx, and First Flight.",
       techStack: [
         "Laravel",
-        "CodeIgniter",
-        "PHP",
-        "jQuery",
         "Bootstrap",
+        "jQuery",
         "MySQL",
         "Azure SSO",
         "GitHub Actions",
         "Courier API",
         "RBAC",
-        "Git",
-        "GitHub Actions",
       ],
       image: "/projects/codeigniter/coms-min.jpg",
       link: null, // Demo available upon request
@@ -50,16 +46,13 @@ export function Projects() {
         "A marketing engagement platform that allows teams to import customer data from LeadSquared CRM, create quiz campaigns, conduct interactive events, and send bulk notifications via email, WhatsApp, and SMS. The system also generates and distributes certificates for participants and winners.",
       techStack: [
         "CodeIgniter",
-        "PHP",
         "jQuery",
         "Bootstrap",
         "MySQL",
         "Azure SSO",
+        "WhatsApp & SMS API",
         "LeadSquared",
-        "WhatsApp API",
-        "SMS API",
         "RBAC",
-        "Git",
         "GitHub Actions",
       ],
       image: "/projects/codeigniter/quiz-dashboard-min.jpg",
@@ -108,22 +101,23 @@ export function Projects() {
       category: "laravel",
       description:
         "Developed APIs for mobile applications and employee well-being platform focused on mental health services for businesses.",
-      techStack: ["Laravel", "PHP", "MySQL", "Bootstrap", "jQuery", "Git"],
+      techStack: ["Laravel", "PHP", "MySQL", "Bootstrap", "jQuery", "GitLab"],
       image: "/projects/laravel/mind-alcove-min.jpg",
       link: "https://mindalcove.com/",
     },
     {
       title: "Wetinuneed",
       category: "codeigniter",
-      description: "E-commerce website with custom features.",
+      description:
+        "Wetinuneed is a multi-functional advertising and business directory platform built to boost visibility for Nigerian businesses. It supports classified listings, job postings, property ads, and events.",
       techStack: [
         "CodeIgniter",
-        "PHP",
         "MySQL",
         "Bootstrap",
         "jQuery",
-        "GitHub",
-        "WHM",
+        "GitLab",
+        "Backend Dashboard",
+        "WHM & cPanel",
       ],
       image: "/projects/codeigniter/wetinuneed-min.jpg",
       link: "https://wetinuneed.com/",
@@ -131,25 +125,25 @@ export function Projects() {
     {
       title: "The Triangles",
       category: "codeigniter",
-      description: "Custom web application with payment integration.",
+      description:
+        "The Triangles is a wellness platform offering online Pranic Healing workshops, guided meditations, yoga sessions, and spiritual practices. It aims to make holistic healing accessible globally, rooted in the teachings of Grand Master Choa Kok Sui.",
       techStack: [
         "CodeIgniter",
-        "PHP",
         "MySQL",
         "Bootstrap",
         "jQuery",
         "GitHub",
         "WHM",
-        "Razorpay",
+        "Zoom API",
       ],
       image: "/projects/codeigniter/the-triangles-min.jpg",
       link: "https://the-triangles.com/",
     },
     {
-      title: "More Ideas General Trading LLC",
+      title: "More Ideas General Trading",
       category: "wordpress",
       description:
-        "Corporate website with LeadSquared integration and WooCommerce.",
+        "More Ideas General Trading serves as the Middle East representative office for BYJU’S, the world's largest ed-tech company. The website functions as a comprehensive corporate platform, offering information about educational programs, facilitating lead generation, and providing e-commerce capabilities for course purchases.",
       techStack: [
         "WordPress",
         "PHP",
@@ -164,12 +158,13 @@ export function Projects() {
     {
       title: "Nividous Software Solutions",
       category: "wordpress",
-      description: "Corporate website with multiple CRM integrations.",
+      description:
+        "Nividous is a leading intelligent automation company specializing in Robotic Process Automation (RPA), Artificial Intelligence (AI), and Low-Code Process Automation. The corporate website serves as a comprehensive platform, showcasing Nividous's solutions, services, and thought leadership in the automation space.",
       techStack: [
         "WordPress",
         "CodeIgniter",
-        "CSS",
-        "jQuery",
+        "Bootstrap & jQuery",
+        "GoToWebinar",
         "Pardot",
         "Salesforce",
         "Infusionsoft",
@@ -180,16 +175,18 @@ export function Projects() {
     {
       title: "Clients on Demand",
       category: "wordpress",
-      description: "Corporate website for sales and marketing education and training company.",
+      description:
+        "Clients on Demand is a sales and marketing education company that assists coaches, consultants, and service professionals in attracting high-value clients. The corporate website serves as a central hub for their training programs, resources, and client testimonials.",
       techStack: ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
       image: "/projects/wordpress/clientsondemand-min.jpg",
       link: "https://www.clientsondemand.com/",
     },
     {
       title: "Catch Foundation",
-      category: "wordpress",
-      description: "Non-profit organization website.",
-      techStack: ["WordPress", "CodeIgniter", "PHP", "CSS", "JavaScript"],
+      category: "codeigniter",
+      description:
+        "Catch Foundation is an environmental NGO based in Ahmedabad, India, dedicated to restoring urban ecosystems by creating dense native forests using the Miyawaki technique. The website serves as an interactive platform to showcase their projects, engage volunteers, and promote environmental awareness.",
+      techStack: ["CodeIgniter", "PHP", "Bootstrap", "JavaScript", "Razorpay", "MySQL", "GitLab"],
       image: "/projects/wordpress/catch-foundation-min.jpg",
       link: "https://catchfoundation.in/",
     },
@@ -197,7 +194,7 @@ export function Projects() {
       title: "More Ideas Shopify Store",
       category: "shopify",
       description:
-        "E-commerce store with multiple payment gateway integrations including Tabby, Tamara, and Amazon Payfort.",
+        "The BYJU’S Middle East online store is a Shopify-based e-commerce platform built to streamline the sale and distribution of BYJU’S educational products across the GCC region. It supports physical and digital product sales, lead capture, and localized checkout flows.",
       techStack: [
         "Shopify",
         "Tabby",
@@ -211,7 +208,7 @@ export function Projects() {
     {
       title: "TSS Smart Shopify App",
       category: "shopify",
-      description: "Custom Shopify app available on the Shopify App Store.",
+      description: "TSS Smart is a Shopify app designed to streamline shipping operations for e-commerce businesses. It automates the creation of shipping labels, enables batch processing of orders, and provides real-time tracking updates, enhancing both merchant efficiency and customer satisfaction.",
       techStack: [
         "Laravel",
         "React",
@@ -227,7 +224,7 @@ export function Projects() {
     {
       title: "E Bazar",
       category: "shopify",
-      description: "E-commerce store with custom theme.",
+      description: "E Bazar is an AI-driven e-commerce platform offering a diverse range of products, including electronics, home decor, and lifestyle accessories. Designed to cater to a broad audience, the platform emphasizes user-friendly navigation, personalized recommendations, and seamless shopping experiences.",
       techStack: ["Shopify", "Theme Customization"],
       image: "/projects/shopify/e-bazar-min.jpg",
       link: "https://www.ebazar.ai/",
@@ -287,9 +284,7 @@ export function Projects() {
                       </div>
                       <CardHeader>
                         <CardTitle>{project.title}</CardTitle>
-                        <CardDescription className="line-clamp-2">
-                          {project.description}
-                        </CardDescription>
+                        <CardDescription>{project.description}</CardDescription>
                       </CardHeader>
                       <CardContent className="flex-grow">
                         <div className="flex flex-wrap gap-2">
