@@ -81,7 +81,7 @@ export function Projects() {
       title: "More Ideas Refund Flow",
       category: "laravel",
       description:
-        "A refund management system for the Customer Happiness team. This application enables managers to assign refund requests, track status updates, ensure approval workflows, and maintain records of customer interactions, including uploaded supporting files and recordings.",
+        "Developed a refund management system for the Customer Happiness team, enabling managers to assign requests, track status, manage approval workflows, and maintain records of customer interactions with supporting files and recordings.",
       techStack: [
         "Laravel",
         "jQuery",
@@ -100,7 +100,7 @@ export function Projects() {
       title: "More Ideas Talent Check",
       category: "laravel",
       description:
-        "A training and assessment platform for onboarding new sales professionals. The system allows trainers to create quizzes focused on product knowledge, customer FAQs, and sales scenarios. The results are automatically generated and shared with managers for evaluation.",
+        "Developed a training and assessment platform for new sales professionals, enabling trainers to create product knowledge, FAQ, and sales scenario quizzes with automated result generation and sharing for manager evaluation.",
       techStack: [
         "Laravel",
         "React",
@@ -127,7 +127,7 @@ export function Projects() {
       title: "Wetinuneed",
       category: "codeigniter",
       description:
-        "Wetinuneed is a multi-functional advertising and business directory platform built to boost visibility for Nigerian businesses. It supports classified listings, job postings, property ads, and events.",
+        "Developed both the frontend and backend, creating responsive UIs for directory, shop, jobs, and property listings, managing featured posts, implementing forms with payment gateway integration, and building backend features for listing requests, payments, staff management, and report generation.",
       techStack: [
         "CodeIgniter",
         "MySQL",
@@ -144,7 +144,7 @@ export function Projects() {
       title: "The Triangles",
       category: "codeigniter",
       description:
-        "The Triangles is a wellness platform offering online Pranic Healing workshops, guided meditations, yoga sessions, and spiritual practices. It aims to make holistic healing accessible globally, rooted in the teachings of Grand Master Choa Kok Sui.",
+        "Developed the complete frontend and backend with an attractive, responsive design for Pranic Healing workshops and spiritual practices, including sessions management, registrations form with Zoom and Razorpay integration, a bulk email module, payment and reports, and the ability to create multiple sessions from the backend.",
       techStack: [
         "CodeIgniter",
         "MySQL",
@@ -161,7 +161,7 @@ export function Projects() {
       title: "More Ideas General Trading",
       category: "wordpress",
       description:
-        "More Ideas General Trading serves as the Middle East representative office for BYJU’S, the world's largest ed-tech company. The website functions as a comprehensive corporate platform, offering information about educational programs, facilitating lead generation, and providing e-commerce capabilities for course purchases.",
+        "More Ideas General Trading serves as the Middle East representative office for BYJU’S, Updated the existing WordPress site by creating new responsive pages with attractive layouts and customizing the theme and plugins. Additionally, integrated contact and inquiry forms with the LeadSquared CRM.",
       techStack: [
         "WordPress",
         "PHP",
@@ -177,10 +177,12 @@ export function Projects() {
       title: "Nividous Software Solutions",
       category: "wordpress",
       description:
-        "Nividous is a leading intelligent automation company specializing in Robotic Process Automation (RPA), Artificial Intelligence (AI), and Low-Code Process Automation. The corporate website serves as a comprehensive platform, showcasing Nividous's solutions, services, and thought leadership in the automation space.",
+        "Customized the WordPress theme, developed a responsive webinar landing page using CodeIgniter with GoToWebinar integration, and implemented multi-CRM form integrations (Salesforce, Pardot, Infusionsoft) alongside creating an Automation ROI Calculator.",
       techStack: [
         "WordPress",
         "CodeIgniter",
+        "PHP",
+        "MySQL",
         "Bootstrap & jQuery",
         "GoToWebinar",
         "Pardot",
@@ -194,7 +196,7 @@ export function Projects() {
       title: "Clients on Demand",
       category: "wordpress",
       description:
-        "Clients on Demand is a sales and marketing education company that assists coaches, consultants, and service professionals in attracting high-value clients. The corporate website serves as a central hub for their training programs, resources, and client testimonials.",
+        "Contributed to the Clients on Demand WordPress website by customizing the theme, developing responsive new pages with attractive layouts, tailoring plugins to specific needs, and implementing targeted modifications within WordPress core files.",
       techStack: ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
       image: "/projects/wordpress/clientsondemand-min.jpg",
       link: "https://www.clientsondemand.com/",
@@ -203,14 +205,15 @@ export function Projects() {
       title: "Catch Foundation",
       category: "codeigniter",
       description:
-        "Catch Foundation is an environmental NGO based in Ahmedabad, India, dedicated to restoring urban ecosystems by creating dense native forests using the Miyawaki technique. The website serves as an interactive platform to showcase their projects, engage volunteers, and promote environmental awareness.",
+        "Developed the backend dashboard for tree tracking, created diverse registration forms with payment gateway integration, built a volunteer management system featuring bulk ID card generation and tree adoption invoices, all secured with multi-level login permissions.",
       techStack: [
         "CodeIgniter",
         "PHP",
         "Bootstrap",
-        "JavaScript",
+        "jQuery",
         "Razorpay",
         "MySQL",
+        "RBAC",
         "GitLab",
       ],
       image: "/projects/wordpress/catch-foundation-min.jpg",
