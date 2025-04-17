@@ -21,10 +21,10 @@ export function Projects() {
 
   const projects = [
     {
-      title: "WorkSpace Management System",
+      title: "MI Hub WorkSpace",
       category: "laravel",
       description:
-        "A comprehensive web-based solution built to manage and optimize coworking space operations. The system provides a centralized platform for handling unit allocations, tenant records, rental contracts, and payment workflows, along with admin and staff roles management. Additionally, it supports efficient handling of shared amenities, ensuring seamless collaboration between teams and tenants. Whether it's generating digital agreements, tracking rental dues, or managing facility access—this system brings all essential coworking operations under one roof, tailored for flexibility and scalability across multiple locations.",
+        "A robust coworking platform to manage unit allocations, tenant records, rental contracts, payments, admins, staff, and shared amenities streamlining operations with flexibility and scalability. It features agreement workflows, automated reminders, and role-based access, making day-to-day management smooth and efficient.",
       techStack: [
         "Laravel",
         "Inertia.js",
@@ -36,7 +36,7 @@ export function Projects() {
         "RBAC",
       ],
       image: "/projects/laravel/workspace_app.jpg",
-      link: 'https://github.com/aniketsharma4u/vercel-portfolio-site', // Demo available upon request
+      link: "https://github.com/aniketsharma4u/react_workspace_app", // Demo available upon request
     },
     {
       title: "More Ideas COMS",
@@ -50,7 +50,7 @@ export function Projects() {
         "MySQL",
         "Azure SSO",
         "GitHub Actions",
-        "Courier API",
+        "Courier APIs",
         "RBAC",
       ],
       image: "/projects/codeigniter/coms-min.jpg",
@@ -204,7 +204,15 @@ export function Projects() {
       category: "codeigniter",
       description:
         "Catch Foundation is an environmental NGO based in Ahmedabad, India, dedicated to restoring urban ecosystems by creating dense native forests using the Miyawaki technique. The website serves as an interactive platform to showcase their projects, engage volunteers, and promote environmental awareness.",
-      techStack: ["CodeIgniter", "PHP", "Bootstrap", "JavaScript", "Razorpay", "MySQL", "GitLab"],
+      techStack: [
+        "CodeIgniter",
+        "PHP",
+        "Bootstrap",
+        "JavaScript",
+        "Razorpay",
+        "MySQL",
+        "GitLab",
+      ],
       image: "/projects/wordpress/catch-foundation-min.jpg",
       link: "https://catchfoundation.in/",
     },
@@ -226,7 +234,8 @@ export function Projects() {
     {
       title: "TSS Smart Shopify App",
       category: "shopify",
-      description: "TSS Smart is a Shopify app designed to streamline shipping operations for e-commerce businesses. It automates the creation of shipping labels, enables batch processing of orders, and provides real-time tracking updates, enhancing both merchant efficiency and customer satisfaction.",
+      description:
+        "TSS Smart is a Shopify app designed to streamline shipping operations for e-commerce businesses. It automates the creation of shipping labels, enables batch processing of orders, and provides real-time tracking updates, enhancing both merchant efficiency and customer satisfaction.",
       techStack: [
         "Laravel",
         "React",
@@ -242,7 +251,8 @@ export function Projects() {
     {
       title: "E Bazar",
       category: "shopify",
-      description: "E Bazar is an AI-driven e-commerce platform offering a diverse range of products, including electronics, home decor, and lifestyle accessories. Designed to cater to a broad audience, the platform emphasizes user-friendly navigation, personalized recommendations, and seamless shopping experiences.",
+      description:
+        "E Bazar is an AI-driven e-commerce platform offering a diverse range of products, including electronics, home decor, and lifestyle accessories. Designed to cater to a broad audience, the platform emphasizes user-friendly navigation, personalized recommendations, and seamless shopping experiences.",
       techStack: ["Shopify", "Theme Customization"],
       image: "/projects/shopify/e-bazar-min.jpg",
       link: "https://www.ebazar.ai/",
