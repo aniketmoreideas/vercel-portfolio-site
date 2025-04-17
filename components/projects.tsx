@@ -21,6 +21,24 @@ export function Projects() {
 
   const projects = [
     {
+      title: "WorkSpace Management System",
+      category: "laravel",
+      description:
+        "A comprehensive web-based solution built to manage and optimize coworking space operations. The system provides a centralized platform for handling unit allocations, tenant records, rental contracts, and payment workflows, along with admin and staff roles management. Additionally, it supports efficient handling of shared amenities, ensuring seamless collaboration between teams and tenants. Whether it's generating digital agreements, tracking rental dues, or managing facility access—this system brings all essential coworking operations under one roof, tailored for flexibility and scalability across multiple locations.",
+      techStack: [
+        "Laravel",
+        "Inertia.js",
+        "React",
+        "Tailwind CSS",
+        "MySQL",
+        "GitHub Actions",
+        "Azure SSO",
+        "RBAC",
+      ],
+      image: "/projects/laravel/workspace_app.jpg",
+      link: 'https://github.com/aniketsharma4u/vercel-portfolio-site', // Demo available upon request
+    },
+    {
       title: "More Ideas COMS",
       category: "laravel",
       description:
