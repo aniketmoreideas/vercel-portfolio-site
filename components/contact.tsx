@@ -83,7 +83,7 @@ export function Contact() {
                     <div className="flex items-center gap-2">
                       <span className="h-3 w-3 rounded-full bg-green-500 dark:bg-green-400" />
                       <p className="text-sm text-muted-foreground">
-                        Available for full-time positions and freelance projects
+                        Available for full-time positions
                       </p>
                     </div>
                   </div>
