@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import type { Metadata } from "next";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     "Full-stack web developer with 7 years of experience in PHP, Laravel, React, and more.",
   icons: {
     icon: "/images/favicon.png",
+  },
+  verification: {
+    google: "7N_RtDQWvAVpYSS_pZDicrZRR9hw9zvwxpHVg3uL5kA",
   },
 };
 
